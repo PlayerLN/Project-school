@@ -151,3 +151,8 @@ header p span{
     border: none; 
     cursor: pointer;
 }
+@media (max-width: 820px){
+    img{
+        width: 300px;
+    }
+}
