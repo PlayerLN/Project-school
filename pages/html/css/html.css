@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+*{
+    font-family: 'Acme', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 98.7vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 22px;
+}
+header p{
+    margin: auto 0;
+    margin-left: 10px;
+    font-size: 40px;
+    color: white;
+}
+header p span{
+    color: red;
+}
+#search{
+    margin: auto;
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+    padding: 5px;
+}
+.html{
+    width: 98.7vw;
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+}
+.html h2{
+    color: darkgoldenrod;
+    margin-bottom: 35px;
+}
+.html p{
+    color: black;
+}
+.info{
+    text-decoration: none;
+    cursor: help;
+}
+.html-code{
+    width: 300px;
+    padding: 3px 4px;
+    background-color: gray;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.html-code p{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
