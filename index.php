@@ -1,4 +1,7 @@
+
 <?php
+
+    /**Author PlayerLN */
 
     $host = "localhost";
     $user = "root";
