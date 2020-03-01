@@ -55,7 +55,7 @@
             <ul>
                 <li><a href="#"><div class="sub">HOME</div></a></li>
                 <li><a href="#"><div class="sub">SEND</div></a></li>
-                <li><a href="#"><div class="sub">CONTACT</div></a></li>
+                <li><a href="https://github.com/PlayerLN"><div class="sub">CONTACT</div></a></li>
                 <li><a href="pages/login/login.php"><div class="sub"><?php echo $userlog; ?></div></a></li>
             </ul>
         </nav>
