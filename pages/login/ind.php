@@ -54,7 +54,7 @@
             <ul>
                 <li><a href="#"><div class="sub">HOME</div></a></li>
                 <li><a href="#"><div class="sub">SEND</div></a></li>
-                <li><a href="#"><div class="sub">CONTACT</div></a></li>
+                <li><a href="https://github.com/PlayerLN"><div class="sub">CONTACT</div></a></li>
                 <li>
                     <?php
 
