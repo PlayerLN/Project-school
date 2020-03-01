@@ -23,7 +23,7 @@
                 $login = "Logado";
                 $_SESSION['username'] = $_POST['username'];
                 $_SESSION['password'] = md5($_POST['password']);
-                header('location: validate.php');
+                header('location: ind.php');
             }else{
                 $login = "Inexistente";
             }
@@ -46,7 +46,7 @@
       <h1>Enter for DEV's</h1>
 
       <div class="form-wrapper">
-        <form action="test.php" method="post">
+        <form action="login.php" method="post">
           <div class="input-block">
             <label for="login-email">Login.Name(</label>
             <input type="text" name="username" id="login-email" />
