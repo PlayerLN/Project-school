@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Baloo+Bhai&display=swap');
+*{
+    font-family: 'Acme', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 98.7vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    margin-top: 0;
+}
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 22px;
+}
+header p{
+    margin: auto 0;
+    margin-left: 10px;
+    font-size: 40px;
+    color: white;
+}
+header p span{
+    color: red;
+}
+#search{
+    margin: auto;
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+    padding: 5px;
+}
+.inicio h1{
+    font-size: 30px;
+}
+.inicio p {
+    margin-bottom: 20px;
+}
+hr {width: 200px; height: 2px; background-color: #000000; margin-bottom: 70px; border: none;}
+.html{
+    width: 98.7vw;
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+}
+.html h2{
+    color: darkgoldenrod;
+    margin-bottom: 35px;
+}
+.html p{
+    color: white;
+}
+.btn-html{
+    margin-top: 35px;
+    width: 150px;
+    height: 35px;
+    background-color: darkgoldenrod; 
+    color: white; 
+    border: none;  
+    cursor: pointer;
+}
+.css{
+    width: 98.7vw;
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+}
+.css h2{
+    color: darkgoldenrod;
+    margin-bottom: 35px;
+}
+.css p{
+    color: rgb(0, 0, 0);
+}
+.btn-css{
+    margin-top: 35px;
+    width: 150px;
+    height: 35px;
+    background-color: darkgoldenrod; 
+    color: white; 
+    border: none;  
+    cursor: pointer;
+}
+.js{
+    width: 98.7vw;
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+}
+.js h2{
+    color: darkgoldenrod;
+    margin-bottom: 35px;
+}
+.js p{
+    color: white;
+}
+.btn-js{
+    margin-top: 35px;
+    width: 150px;
+    height: 35px;
+    background-color: darkgoldenrod; 
+    color: white; 
+    border: none;  
+    cursor: pointer;
+}
+.php{
+    width: 98.7vw;
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+}
+.php h2{
+    color: darkgoldenrod;
+    margin-bottom: 35px;
+}
+.php p{
+    color: black;
+}
+.btn-php{
+    margin-top: 35px;
+    width: 150px;
+    height: 35px;
+    background-color: darkgoldenrod; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+}
+@media (max-width: 820px){
+    img{
+        width: 300px;
+    }
+}
+.sub {
+    width: 0%;
+    background: white;
+    transition-duration: 0.3s;
+}
+.sub:hover {
+    color: black;
+    width: 100%;
+}
