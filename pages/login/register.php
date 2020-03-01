@@ -29,6 +29,7 @@
                 $login = "Criado com sucesso";
                 $_SESSION['username'] = $_POST['username'];
                 $_SESSION['password'] = md5($_POST['password']);
+                header('locate: login.php')
             }
         }
     }
